@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelpScreen /> should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#5f0c38",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-around",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "width": "75%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#bbb",
+                "fontFamily": "Roboto-Bold",
+                "fontSize": 19,
+                "marginBottom": 0,
+                "marginTop": 20,
+                "textAlign": "center",
+                "width": "100%",
+              },
+              Object {
+                "marginTop": 50,
+              },
+            ]
+          }
+          testID="title"
+        >
+          Tervetuloa
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Tunne-sovelluksessa pääset luomaan uuden tunnedokumentin painamalla alavalikon keskimmäistä painiketta
+           
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "entypo",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          . Jos olet tekemässä ensimmäistä istuntoa tai sinulla ei ole keskeneräisiä istuntoja, pyytää ohjelma sinua antamaan istunnolle nimi.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Tämän jälkeen eteesi avautuu ensimmäinen kysymys. Kysymykseen vastataan kirjoittamalla vastaus tekstikenttään ja painamalla 'tallenna'-nappia. Tallennettuasi vastauksen, ohjelma siirtää sinut automaattisesti seuraavaan kysymykseen. Jos kuitenkin vastaaminen tuntuu vaikealta ja haluat kenties palata kysymyksen pariin vasta myöhemmin, voit siirtyä 'seuraava'-linkillä seuraavaan kysymykseen.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Toisinaan kysymyksiin (kysymykset: 2, 6, 7, 8 ja 9) on mahdollista vastata joko valitsemalla listasta valmiita sanoja/lauseita tai vaihtoehtoisesti kirjoittaa oma vastaus. Voit vaihtaa valintaasi kysymyskentän alla olevasta moodi-kytkimestä. Kytkimen tekstistä sekä tekstikentän vihjeestä näet miten vastata.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Kysymyksiä on kaiken kaikkiaan kymmenen. Jos haluat nähdä, mitä olet vastannut aiempiin kysymyksiin, näet koosteen vastauksistasi painamalla oikean yläkulman
+           
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+           ikonia. Koostesivulta pääset jatkamaan istunnon päivittämistä painamalla yläpalkin takaisin-nuolta.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Tallennat istunnon painaessasi kymmenennen kysymyksen tallenna-nappia/linkkiä. Tämän jälkeen istunto on tallennettu puhelimen muistiin. Voit tätä ja tulevia tallennettuja istuntoja tutkailla ja päivitellä oikean alareunan
+           
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "entypo",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+           napista ja valitsemalla listasta haluamasi istunto. Jos myöhemmin muokkaat jo tallennettua istuntoa, voit vastata vain haluamiisi kysymyksiin ja tallentaa nämä. Tallennus astuu heti voimaan tarvitsematta käydä kaikkia kymmentä kysymystä läpi.
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#999",
+              "fontSize": 18,
+              "margin": 10,
+            }
+          }
+        >
+          Jos jotain jäi epäselväksi, voi ohjeisiin (
+          <Text
+            allowFontScaling={false}
+            style={
+              Array [
+                Object {
+                  "color": "gray",
+                  "fontSize": 20,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "entypo",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+          -nappi vasemmalla alhaalla) palata missä vaiheessa tahansa ilman, että istunnon jo kirjoitettuja tietoja menetetään.
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

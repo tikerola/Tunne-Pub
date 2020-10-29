@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomQueryNameModal /> should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#5f0c38",
+      "flex": 1,
+      "justifyContent": "flex-start",
+    }
+  }
+  testID="modal-container"
+>
+  <Modal
+    animationType="fade"
+    hardwareAccelerated={true}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={true}
+  >
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "elevation": 5,
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "padding": 25,
+          "shadowColor": "#fff",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.44,
+          "shadowRadius": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "width": "100%",
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              Object {
+                "color": "white",
+                "fontFamily": "Roboto-Light",
+                "fontSize": 18,
+                "marginBottom": 5,
+              }
+            }
+            testID="modal-title"
+          >
+            Aloita antamalla istunnolle nimi
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            onChangeText={[Function]}
+            rejectResponderTermination={true}
+            style={
+              Object {
+                "backgroundColor": "#555",
+                "borderColor": "#bbb",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "color": "white",
+                "padding": 5,
+              }
+            }
+            testID="input"
+            underlineColorAndroid="transparent"
+            value="my name"
+          />
+          <Text
+            style={
+              Object {
+                "color": "red",
+                "fontFamily": "Roboto-Bold",
+                "fontSize": 16,
+                "textAlign": "center",
+              }
+            }
+          >
+            some error
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "marginTop": 5,
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#3a89ed",
+                "borderRadius": 5,
+                "elevation": 5,
+                "margin": 0,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 5,
+                "width": 100,
+              }
+            }
+            testID="button"
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "Roboto-Light",
+                  "fontSize": 16,
+                }
+              }
+              testID="title"
+            >
+              Tallenna
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "red",
+                "borderRadius": 5,
+                "elevation": 5,
+                "margin": 0,
+                "opacity": 1,
+                "padding": 5,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 5,
+                "width": 100,
+              }
+            }
+            testID="button"
+          >
+            <Text
+              style={
+                Object {
+                  "alignSelf": "center",
+                  "color": "white",
+                  "fontFamily": "Roboto-Light",
+                  "fontSize": 16,
+                }
+              }
+              testID="title"
+            >
+              Peruuta
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

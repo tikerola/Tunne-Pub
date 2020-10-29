@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RenderSummary /> should match snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBottom": 15,
+      "paddingTop": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View>
+    <RCTScrollView
+      data={
+        Array [
+          Card {
+            "feeling": "happy",
+            "filename": 1,
+            "id": "1",
+          },
+          Card {
+            "feeling": "sad",
+            "filename": 1,
+            "id": "2",
+          },
+          Card {
+            "feeling": "worried",
+            "filename": 1,
+            "id": "3",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 140,
+                "marginLeft": 5,
+                "marginRight": 5,
+                "width": 96,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 140,
+                "marginLeft": 5,
+                "marginRight": 5,
+                "width": 96,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <Image
+            source={1}
+            style={
+              Object {
+                "height": 140,
+                "marginLeft": 5,
+                "marginRight": 5,
+                "width": 96,
+              }
+            }
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 10,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#bbb",
+              "fontFamily": "Roboto-Light",
+              "fontSize": 18,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#666",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Mikä tarve sinulla on juuri nyt?
+            : 
+          </Text>
+          niinpä niin
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 10,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#bbb",
+              "fontFamily": "Roboto-Light",
+              "fontSize": 18,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#666",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Mitä lausetta pyörität päässäsi juuri nyt? Mikä uskomus sinulla on? Mitä se sinulle merkitsee?
+            : 
+          </Text>
+          pahoillaan, yskä
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(0,0,0,0.5)",
+            "display": "flex",
+            "flexDirection": "row",
+            "marginTop": 10,
+            "padding": 15,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#bbb",
+              "fontFamily": "Roboto-Light",
+              "fontSize": 18,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#666",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Mitä sinun nyt pitäisi tehdä jotta voisit hyvin?
+            : 
+          </Text>
+          diipadaapa
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThankScreen /> should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#5f0c38",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "padding": 10,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "rgba(0, 0,0, 0.8)",
+            "borderRadius": 8,
+            "padding": 15,
+          },
+          Object {
+            "width": "75%",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#bbb",
+            "fontFamily": "Roboto-Light",
+            "fontSize": 20,
+            "marginBottom": 25,
+            "textAlign": "center",
+          }
+        }
+      >
+        Onneksi olkoon!
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#bbb",
+            "fontFamily": "Roboto-Light",
+            "fontSize": 18,
+            "marginBottom": 30,
+          }
+        }
+      >
+        Olet nyt tallentanut vastauksesi ja voit alavalikon Tallennetut-napista valita tallennetun istunnon, tutkailla sitä ja tarpeen tullen tehdä lisämuutoksia.
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomHeaderTitle should match snapshot 1`] = `
+<View>
+  <Text
+    style={
+      Array [
+        undefined,
+        Object {
+          "color": undefined,
+          "fontSize": 20,
+        },
+      ]
+    }
+  >
+    TUNNE_APP 
+    <Text
+      style={
+        Object {
+          "color": "#bbb",
+          "fontSize": 15,
+        }
+      }
+    >
+      Holabalo...
+    </Text>
+  </Text>
+</View>
+`;

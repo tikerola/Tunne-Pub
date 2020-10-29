@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SecondScreen /> should match snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+  keyboardShouldPersistTaps="handled"
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#5f0c38",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": "75%",
+            "width": "60%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-evenly",
+                "marginBottom": 200,
+                "position": "relative",
+                "top": 30,
+              }
+            }
+          >
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "red",
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "top": 9,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                        ✓
+                      </Text>
+                    </Text>
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "lightgray",
+                        "flexWrap": "wrap",
+                        "fontFamily": undefined,
+                        "fontSize": 14,
+                        "marginTop": 4,
+                        "paddingTop": 4,
+                        "textAlign": "center",
+                        "width": 100,
+                      }
+                    }
+                  >
+                    kehon tuntemukset
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "red",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 44,
+                        "marginLeft": 22,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 18,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderColor": "red",
+                        "borderRadius": 20,
+                        "borderWidth": 5,
+                        "bottom": 2,
+                        "height": 40,
+                        "width": 40,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "top": 6.666666666666667,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#bbb",
+                          }
+                        }
+                      >
+                        5
+                      </Text>
+                    </Text>
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "#4BB543",
+                        "flexWrap": "wrap",
+                        "fontFamily": undefined,
+                        "fontSize": 14,
+                        "paddingTop": 4,
+                        "textAlign": "center",
+                        "width": 100,
+                      }
+                    }
+                  >
+                    tunteen alkuperä
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "red",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 0,
+                        "marginRight": 22,
+                        "position": "absolute",
+                        "right": 48,
+                        "top": 18.018018018018015,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "black",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 48,
+                        "marginLeft": 22,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 18.018018018018015,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "top": 9,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                        6
+                      </Text>
+                    </Text>
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "lightgray",
+                        "flexWrap": "wrap",
+                        "fontFamily": undefined,
+                        "fontSize": 14,
+                        "marginTop": 4,
+                        "paddingTop": 4,
+                        "textAlign": "center",
+                        "width": 100,
+                      }
+                    }
+                  >
+                    tarve tunteen takana
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "black",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 0,
+                        "marginRight": 22,
+                        "position": "absolute",
+                        "right": 44,
+                        "top": 18,
+                      }
+                    }
+                  />
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "black",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 44,
+                        "marginLeft": 22,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 18,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View>
+              <View>
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "black",
+                        "borderRadius": 18,
+                        "height": 36,
+                        "width": 36,
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "top": 9,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "white",
+                          }
+                        }
+                      >
+                        7
+                      </Text>
+                    </Text>
+                  </View>
+                  <Text
+                    style={
+                      Object {
+                        "color": "lightgray",
+                        "flexWrap": "wrap",
+                        "fontFamily": undefined,
+                        "fontSize": 14,
+                        "marginTop": 4,
+                        "paddingTop": 4,
+                        "textAlign": "center",
+                        "width": 100,
+                      }
+                    }
+                  >
+                    kaipaamasi tunne
+                  </Text>
+                  <View
+                    style={
+                      Object {
+                        "borderTopColor": "black",
+                        "borderTopStyle": "solid",
+                        "borderTopWidth": 3,
+                        "left": 0,
+                        "marginRight": 22,
+                        "position": "absolute",
+                        "right": 44,
+                        "top": 18,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              <RCTScrollView
+                keyboardShouldPersistTaps="handled"
+              >
+                <View>
+                  <View
+                    style={
+                      Object {
+                        "backgroundColor": "#440627",
+                        "borderRadius": 10,
+                        "padding": 50,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "flexGrow": 1,
+                          "marginTop": 0,
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "color": "#bbb",
+                            "fontFamily": "Roboto-Light",
+                            "fontSize": 18,
+                            "width": "95%",
+                          }
+                        }
+                      >
+                        Onko tunne alunperin sinun vai nappasitko jonkun toisen tunteen?
+                      </Text>
+                      <TextInput
+                        allowFontScaling={true}
+                        keyboardAppearance="dark"
+                        multiline={true}
+                        numberOfLines={5}
+                        onChangeText={[Function]}
+                        placeholder="Kirjoita omin sanoin..."
+                        placeholderTextColor="#555"
+                        rejectResponderTermination={true}
+                        style={
+                          Object {
+                            "backgroundColor": "#333",
+                            "borderColor": "#bbb",
+                            "borderRadius": 5,
+                            "borderWidth": 1,
+                            "color": "#bbb",
+                            "padding": 5,
+                            "width": "95%",
+                          }
+                        }
+                        testID="custom-input"
+                        textAlignVertical="top"
+                        underlineColorAndroid="transparent"
+                        value=""
+                      />
+                    </View>
+                    <Text
+                      style={
+                        Object {
+                          "color": "red",
+                          "fontFamily": "Roboto-Bold",
+                          "fontSize": 16,
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      
+                    </Text>
+                    <View
+                      accessible={true}
+                      focusable={true}
+                      isTVSelectable={true}
+                      onClick={[Function]}
+                      onResponderGrant={[Function]}
+                      onResponderMove={[Function]}
+                      onResponderRelease={[Function]}
+                      onResponderTerminate={[Function]}
+                      onResponderTerminationRequest={[Function]}
+                      onStartShouldSetResponder={[Function]}
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "backgroundColor": "#3a89ed",
+                          "borderRadius": 5,
+                          "elevation": 5,
+                          "margin": 0,
+                          "opacity": 1,
+                          "padding": 5,
+                          "shadowColor": "#000",
+                          "shadowOffset": Object {
+                            "height": 4,
+                            "width": 0,
+                          },
+                          "shadowOpacity": 0.44,
+                          "shadowRadius": 5,
+                          "width": 100,
+                        }
+                      }
+                      testID="button"
+                    >
+                      <Text
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "color": "white",
+                            "fontFamily": "Roboto-Light",
+                            "fontSize": 16,
+                          }
+                        }
+                        testID="title"
+                      >
+                        Tallenna
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </RCTScrollView>
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "marginTop": 90,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "bottom": 40,
+                      "left": 60,
+                      "position": "absolute",
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "padding": 8,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#bbb",
+                            "fontFamily": "Roboto-Light",
+                            "fontSize": 18,
+                          },
+                        ]
+                      }
+                    >
+                      Edellinen
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  style={
+                    Object {
+                      "bottom": 40,
+                      "position": "absolute",
+                      "right": 60,
+                    }
+                  }
+                >
+                  <View
+                    accessible={true}
+                    focusable={true}
+                    isTVSelectable={true}
+                    onClick={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "opacity": 1,
+                        "padding": 8,
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        Array [
+                          Object {
+                            "color": "#bbb",
+                            "fontFamily": "Roboto-Light",
+                            "fontSize": 18,
+                          },
+                        ]
+                      }
+                    >
+                      Seuraava
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

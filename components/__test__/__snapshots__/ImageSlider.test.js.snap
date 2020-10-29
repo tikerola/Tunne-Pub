@@ -1,0 +1,432 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageSlider /> should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "marginBottom": 5,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+      }
+    }
+    data={
+      Array [
+        Card {
+          "feeling": "happy",
+          "filename": 1,
+          "id": "1",
+        },
+        Card {
+          "feeling": "sad",
+          "filename": 1,
+          "id": "2",
+        },
+        Card {
+          "feeling": "worried",
+          "filename": 1,
+          "id": "3",
+        },
+        Card {
+          "feeling": "scared",
+          "filename": 1,
+          "id": "4",
+        },
+        Card {
+          "feeling": "happy",
+          "filename": 1,
+          "id": "5",
+        },
+        Card {
+          "feeling": "sad",
+          "filename": 1,
+          "id": "6",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    extraData={
+      Array [
+        Card {
+          "feeling": "happy",
+          "filename": 1,
+          "id": "1",
+        },
+        Card {
+          "feeling": "sad",
+          "filename": 1,
+          "id": "2",
+        },
+        Card {
+          "feeling": "worried",
+          "filename": 1,
+          "id": "3",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={15}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={3}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "height": 667,
+        "marginBottom": 5,
+        "paddingBottom": 0,
+        "paddingTop": 10,
+        "width": "98%",
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderColor": "red",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "elevation": 5,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 5,
+                "transform": Array [
+                  Object {
+                    "scale": 1.5,
+                  },
+                  Object {
+                    "translateY": 20,
+                  },
+                ],
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderColor": "red",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "elevation": 5,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 5,
+                "transform": Array [
+                  Object {
+                    "scale": 1.5,
+                  },
+                  Object {
+                    "translateY": 20,
+                  },
+                ],
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderColor": "red",
+                "borderRadius": 5,
+                "borderWidth": 1,
+                "elevation": 5,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 5,
+                "transform": Array [
+                  Object {
+                    "scale": 1.5,
+                  },
+                  Object {
+                    "translateY": 20,
+                  },
+                ],
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderRadius": 5,
+                "elevation": 11,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 10.32,
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderRadius": 5,
+                "elevation": 11,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 10.32,
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderRadius": 5,
+                "elevation": 11,
+                "marginBottom": 15,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 5,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.44,
+                "shadowRadius": 10.32,
+              }
+            }
+          >
+            <View>
+              <Image
+                source={1}
+                style={
+                  Object {
+                    "height": 140,
+                    "width": 96,
+                  }
+                }
+                testID="image"
+              />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

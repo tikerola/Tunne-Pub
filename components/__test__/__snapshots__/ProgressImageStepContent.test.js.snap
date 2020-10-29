@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressImageStepContent /> should match snapshot 1`] = `
+<View
+  style={false}
+>
+  <Text
+    style={
+      Object {
+        "color": "#bbb",
+        "fontFamily": "Roboto-Light",
+        "fontSize": 18,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+      }
+    }
+  >
+    Hyvä! Valitse nyt
+     
+    <Text
+      onPress={[Function]}
+      style={
+        Object {
+          "color": "#3a89ed",
+          "fontSize": 20,
+          "textDecorationLine": "underline",
+        }
+      }
+    >
+      tunnekuvista
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#bbb",
+          "fontFamily": "Roboto-Light",
+          "fontSize": 18,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+        }
+      }
+    >
+       
+      ne kuvat, jotka parhaiten kuvaavat tunteitasi.
+    </Text>
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Card {
+          "feeling": "happy",
+          "filename": 1,
+          "id": "1",
+        },
+        Card {
+          "feeling": "sad",
+          "filename": 1,
+          "id": "2",
+        },
+        Card {
+          "feeling": "worried",
+          "filename": 1,
+          "id": "3",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "alignSelf": "center",
+          "marginBottom": 0,
+          "marginTop": 0,
+          "width": "90%",
+        },
+        Object {
+          "marginBottom": 20,
+          "marginTop": 15,
+        },
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 140,
+              "marginRight": 5,
+              "width": 96,
+            }
+          }
+          testID="image"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 140,
+              "marginRight": 5,
+              "width": 96,
+            }
+          }
+          testID="image"
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Array [
+            Object {
+              "flexDirection": "row",
+            },
+            null,
+          ]
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "height": 140,
+              "marginRight": 5,
+              "width": 96,
+            }
+          }
+          testID="image"
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#3a89ed",
+        "borderRadius": 5,
+        "elevation": 5,
+        "margin": 0,
+        "opacity": 1,
+        "padding": 5,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.44,
+        "shadowRadius": 5,
+        "width": 100,
+      }
+    }
+    testID="button"
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "white",
+          "fontFamily": "Roboto-Light",
+          "fontSize": 16,
+        }
+      }
+      testID="title"
+    >
+      Tallenna
+    </Text>
+  </View>
+</View>
+`;
